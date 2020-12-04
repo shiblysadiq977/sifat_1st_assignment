@@ -1,0 +1,52 @@
+ul{
+    list-style-type: none;
+    height: 100px;
+    background-color: #C6426E;
+    /* overflow: auto; */
+}
+li{
+    padding: 35px 30px;
+    float: left;
+    color: white;
+    font: bold 25px 'arial';
+    /* font-family: Helvetica, sans-serif; */
+}
+.wrapper{
+    
+    overflow: hidden;
+    
+}
+.blog{
+    width: 70%;
+    min-height: 200px;
+    background-image: linear-gradient(to left,#642B73,#C6426E);
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    /* margin-top: 10px; */
+    padding-top: 100px;
+
+    
+}
+.contact{
+    width: 29%;
+    min-height: 200px;
+    background-image: linear-gradient(to right,#642B73,#C6426E);
+    float: right;
+    color: white;
+    font-family: Impact;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 100px;
+}
+.footer{
+    height: 100px;
+    background-color:#642B73;
+    /* clear: both; */
+    color: white;
+    text-align: center;
+    font-family: Impact;
+    margin-top: 10px;
+    padding-top: 20px;
+}
